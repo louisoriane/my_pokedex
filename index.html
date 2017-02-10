@@ -5,21 +5,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.20">
 		<title>Pokedex</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
-		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script src="script.js"></script>
 	</header>
-
+	
 	<body>
 		<h1>POKEDEX</h1>
-
-		<form>
-			<input type="text" name="name-number-pokemon" placeholder="Enter your Pokemon">
+		<form name="form">
+			<input type="text" name="name-number-pokemon" placeholder="Enter your Pokemon" id="pokemon-number-name">
 			<input type="submit" value="Search that pokemon">
 		</form>
-
 		<div id="error"></div>
 		
-		<div class="container">	
+		<div class="container">
 			<div class="left-block">
 
 				<div class="top-block">
@@ -27,12 +24,10 @@
 						<div class="diode-circle">
 							<div class="inner-diode-circle"></div>
 						</div>
-
 						<div class="small-circle-red"></div>
 						<div class="small-circle-yellow"></div>
 						<div class="small-circle-green"></div>
 					</div>
-
 					<div class="separate-block">
 						<div class="straight"></div>
 						<div class="straight-rotate"></div>
@@ -41,6 +36,7 @@
 				</div>
 
 				<h2>POKEDEX</h2>
+
 				<div class="center-block">
 					<div class="contour-screen">
 						<div class="block-smallest-circle-red">
@@ -48,8 +44,7 @@
 							<div class="smallest-circle-red"></div>
 							<div class="hide-egde-left"></div>
 						</div>
-
-						<div class="screen"></div>
+						<div class="screen" id="screen"></div>
 						
 						<div class="contour-screen-bottom">
 							<div class="medium-circle-red"></div>
@@ -73,15 +68,16 @@
 							<div class="cross-horizontal"></div>
 						</div>
 					</div>
-
 					<div class="rectangle-yellow"></div>
 				</div>
-				 <div class="straight-side"> </div>
-				 <div class="straight-side2"> </div>
+
+				<div class="straight-side"> </div>
+				<div class="straight-side2"> </div>
 				<div class="straight-horizontal"></div>
 			</div>
 
 			<div class="right-block">
+
 				<div class="screen-display-pokemon">
 					<div class="title-pokemon">
 						<span id="name-pokemon">Name:</span>
@@ -92,6 +88,7 @@
 						<span id="type"></span>
 					</div>
 				</div>
+
 				<div class="keyboard">
 					<div class="touch-horizontal">
 						<div class="square-blue one"></div>
@@ -108,23 +105,23 @@
 						<div class="square-blue four"></div>
 					</div>
 				</div>
-					<div class="button-bottom-block">
-						<div class="small-circle-orange"></div>
-						<div class="small-circle-kaki"></div>
-						<div class="bar-green-right"></div>
-						<div class="bar-orange-right"></div>
-					</div>
+				
+				<div class="button-bottom-block">
+					<div class="small-circle-orange"></div>
+					<div class="small-circle-kaki"></div>
+					<div class="bar-green-right"></div>
+					<div class="bar-orange-right"></div>
+				</div>
 
-					<div class="arrow-block">
-						<div class="square-arrow"></div>
-						<div class="square-arrow"></div>
-						<div class="square-arrow-yellow"></div>
-					</div>
+				<div class="arrow-block">
+					<div class="square-arrow"></div>
+					<div class="square-arrow"></div>
+					<div class="square-arrow-yellow"></div>
+				</div>
 
-					<div class="rectangles-orange">
-						<div class="rectangle-orange"></div>
-						<div class="rectangle-orange"></div>
-					</div>
+				<div class="rectangles-orange">
+					<div class="rectangle-orange"></div>
+					<div class="rectangle-orange"></div>
 				</div>
 			</div>
 		</div>

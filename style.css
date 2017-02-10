@@ -561,15 +561,7 @@ h2 {
 
 @media screen and (max-width: 769px)
 {
-	.right-block {
-		display: none;
-	}
-
-	.center-block {
-		display: none;
-	}
-
-	.bottom-block {
+	.right-block, .center-block, .bottom-block {
 		display: none;
 	}
 
